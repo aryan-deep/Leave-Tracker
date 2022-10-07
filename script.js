@@ -102,10 +102,6 @@ let renderTable = () => {
                     let flag = 0;
                     let j
                     for (let i = 0; i < lineData.length; i++) {
-
-                        Object.values(lineData[i]).forEach(l => {
-                            console.log(l)
-                        })
                         if (Object.keys(lineData[i])[0] === print) {
                             flag = 1
                             j = i
