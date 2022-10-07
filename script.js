@@ -136,12 +136,4 @@ function changeColor() {
     document.querySelector('.box').style.color = "blue";
 }
 
-{
-    echo "# Leave-Tracker" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/aryan-deep/Leave-Tracker.git
-git push -u origin main
-}
+
